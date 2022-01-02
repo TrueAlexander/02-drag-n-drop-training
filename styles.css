@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+ 
+}
+
+h2 {
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.col-header {
+  width: 120px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+  text-align: center;
+ 
+}
+
+.item {
+  width: 120px;
+  height: 50px;
+  box-shadow: 0px 0px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: linear-gradient(90deg, #96ad2c 0%, #096e69 179.25%);
+  padding: 1rem;
+  color: #f7f7f7;
+  text-align: center;
+  cursor: grab;
+
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  border: 1px dotted rgb(179, 179, 179);
+  width: 120px;
+  height: 50px;
+  border-radius: 20px
+  
+}
+
+.equal {
+  background: linear-gradient(90deg, #411738 0%, #ff85e4 179.25%);
+}
+
+.six {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.two {
+  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+}
+
+.four {
+  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold {
+  width: 120px;
+  height: 50px;
+  background: linear-gradient(90deg, #4a5a03 0%, #b4034d 179.25%);
+  
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  box-shadow: 0 0 20px rgb(77, 157, 177);
+  background-color: rgba(80, 58, 58, 0.322);
+  transform: scale(1.2);
+}
+
+.wrong {
+  color: red;
+  display: none;
+}
+
+.correct {
+  color: green;
+  display: none;
+  
+}

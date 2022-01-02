@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Drag & Drop | Проект 2</title>
+</head>
+
+<body>
+  <div>
+    <div class="row">
+      <h2>Сколько будет 2 * 2 = ... ?</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-header equal">Равно:</div>
+      <div class="col-header six">6</div>
+      <div class="col-header two">2</div>
+      <div class="col-header four">4</div>
+    </div>
+
+    <div class="row">
+      <div class="placeholder">
+        <div class="item" draggable="true">Мой ответ!</div>
+      </div>
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+      <div class="placeholder right-answer"></div>
+    </div>
+
+    <div class="row wrong">
+      <h2>Попробуйте ещё раз!</h2>
+    </div>
+
+    <div class="row correct">
+      <h2>Вы правы!</h2>
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
